@@ -21,6 +21,10 @@ Widget build(BuildContext context) {
     appBar: AppBar(
       title: const Text('your filters'),
     ),
+    drawer :MainDrawer(
+      onSelectScreen : (identifier){
+        Navigator.of
+      })
     body: Column(
       children: [
         SwitchListTile(value: _glutenFreeFilterSet , onChanged:(isChecked){
